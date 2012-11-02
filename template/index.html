@@ -22,15 +22,21 @@
 		<input type='button' value='add contact' id='add_contact_btn'/>
     </div>
 	
-    <div id='roster_area'>roster-area
+	<span>roster-area</span>
+    <div id='roster_area'>
 		<ul></ul>
     </div>
+	<br />
 	
-    <div id='chat_area'>chat-area
-		<ul></ul>
-		<input type='text' id='post_message_content' />
-		<input type='button' id='post_message_btn' />
+	<span>chat-area</span>
+    <div id='chat_area'>
     </div>
+    
+    <div>
+		<input type='text' id='post_message_content' />
+		<input type='button' id='post_message_btn' value='post' />
+    </div>
+
     
     <div id='approve_dialog' class='hidden'>
 		<p><span id='approve_jid'></span> has requested a subscription to your presence.  Approve or deny?</p>

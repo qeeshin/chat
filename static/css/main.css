@@ -4,3 +4,13 @@
 #roster_area,#chat_area{
 	border:1px solid gray;
 }
+#chat_area{
+	height:150px;
+	width:600px;
+}
+#roster_area{
+	width:300px;
+}
+#post_message_content{
+	width:500px;
+}
