@@ -19,9 +19,7 @@ var Gab={
                             "<div class='roster-contact offline'>" +
                             "<div class='roster-name'>" +
                             name +
-                            "</div><div class='roster-jid'>" +
-                            jid +
-                            "</div></div></li>");
+                            "</li>");
 
             Gab.insert_contact(contact);
         });
@@ -195,7 +193,6 @@ var Gab={
     },
 
     insert_contact: function (elem) {
-		debugger
 		$('#roster_area ul').append(elem);
     }    
 }
