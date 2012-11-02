@@ -1,0 +1,46 @@
+﻿<html>  
+<head>
+	<title>rtw</title>  
+	
+	<link href="static/css/jquery-ui-1.9.1.custom.css" rel="stylesheet" type="text/css"/>
+	<link href="static/css/peek.css" rel="stylesheet" type="text/css"/>
+	
+	<link href="static/css/main.css" rel="stylesheet" type="text/css"/>
+	
+</head>  
+<body>
+	
+    <div id='login_dialog'>
+      <label>JID:</label><input type='text' id='jid' />
+      <label>Password:</label><input type='password' id='password' />
+      <input type='button' value='login' id='login_btn' />
+    </div>
+    
+    <div id='contact_dialog'>add contact:
+		<label>JID:</label><input type='text' id='contact_jid' />
+		<label>Name:</label><input type='text' id='contact_name' />
+		<input type='button' value='add contact' id='add_contact_btn'/>
+    </div>
+	
+    <div id='roster_area'>roster-area
+		<ul></ul>
+    </div>
+	
+    <div id='chat_area'>chat-area
+		<ul></ul>
+		<input type='text' id='post_message_content' />
+		<input type='button' id='post_message_btn' />
+    </div>
+    
+    <div id='approve_dialog' class='hidden'>
+		<p><span id='approve_jid'></span> has requested a subscription to your presence.  Approve or deny?</p>
+    </div>    
+    
+	<script type='text/javascript' src="static/js/jquery-1.8.2.js"></script>
+	<script type='text/javascript' src="static/js/jquery-ui.js"></script>
+	<script type='text/javascript' src="static/js/strophe.js"></script>
+	<script type='text/javascript' src="static/js/peek.js"></script>
+	
+	<script type='text/javascript' src="static/js/main.js"></script>
+</body>
+</html>  

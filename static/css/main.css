@@ -1,0 +1,6 @@
+.hidden{
+	display:none;
+}
+#roster_area,#chat_area{
+	border:1px solid gray;
+}
