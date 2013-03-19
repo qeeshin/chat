@@ -253,7 +253,7 @@ $(document).ready(function(){
 
 $(document).bind('connect', function (ev, data) {
     var conn = new Strophe.Connection(
-        "http://localhost:5280/xmpp-httpbind");
+        "http://42.96.145.160:5280/http-bind");
 
     conn.xmlInput = function (body) {
         Peek.show_traffic(body, 'incoming');
